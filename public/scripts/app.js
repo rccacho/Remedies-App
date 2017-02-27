@@ -4,12 +4,10 @@ angular
   .config(config);
 
 config.$inject = ['$routeProvider', '$locationProvider'];
-
 function config ($routeProvider, $locationProvider) {
-
   $routeProvider
     .when('/', {
-      templateUrl: '/templates/illness-index.html',
+      templateUrl: 'views/templates/illness-index.html',
       controllerAs: 'illnessIndexController',
       controller: 'IllnessIndexController'
     })
