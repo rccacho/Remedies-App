@@ -13,11 +13,11 @@ function config ($routeProvider, $locationProvider) {
       controllerAs: 'illnessIndexController',
       controller: 'IllnessIndexController'
     })
-    // .when('/:id', {
-    //   templateUrl: '/templates/illness-show.html',
-    //   controllerAs: 'illnessShowController',
-    //   controller: 'IllnessShowController'
-    // })
+    .when('/:id', {
+      templateUrl: '/templates/illness-show.html',
+      controllerAs: 'illnessShowController',
+      controller: 'IllnessShowController'
+    })
     .otherwise({ redirectTo: '/'})
 
     $locationProvider.html5Mode({
