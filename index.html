@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="remedies">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title></title>
+
+    <!-- STYLESHEETS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/public/styles/styles.css">
+
+    <!-- ANGULAR SCRIPTS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular-route.js"></script>
+
+    <!-- APPLICATION SCRIPTS -->
+    
+    <script src="/public/scripts/illness.js"></script>
+    <script src="/public/scripts/app.js"></script>
+    <script src="/public/scripts/controllers/IllnessIndexController.js"></script>
+
+  </head>
+
+  <body>
+    <div class="jumbotron">
+      <div class="container">
+        <h1>What Ailes You?</h1>
+      </div>
+    </div>
+
+    <div ng-view></div>
+  </body>
+
+</html>
